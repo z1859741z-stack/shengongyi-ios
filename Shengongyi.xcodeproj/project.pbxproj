@@ -1,0 +1,134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+		BA886AD5A772554FB6B3B52F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BC863597951A2961F4F7C /* App.swift */; };
+		D9B56836F40D52AB9B7F41A1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 665611085FCB57ACA0B89C52 /* index.html */; };
+		0116B9B7BBA65DD3BC6664EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2041A7058975344A2C199C3 /* LaunchScreen.storyboard */; };
+		1411926B89385B938C03FC5F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEA693A44C35B0F85EE200A /* WebKit.framework */; };
+		379BC863597951A2961F4F7C /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		665611085FCB57ACA0B89C52 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		D2041A7058975344A2C199C3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E222B892717059B1B5800F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEA693A44C35B0F85EE200A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AE178D0DA4315B10AE24D039 /* Shengongyi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shengongyi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDDC809FEF655669FC71263 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			BA886AD5A772554FB6B3B52F /* App.swift in Sources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+		32EF3398F9F954909336D6EB /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+			1411926B89385B938C03FC5F /* WebKit.framework in Frameworks */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+		3042EFC2840B5E7CA0B60442 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+			D9B56836F40D52AB9B7F41A1 /* index.html in Resources */,
+			0116B9B7BBA65DD3BC6664EA /* LaunchScreen.storyboard in Resources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+		31F85B91E75E530CBB7D019F /* Shengongyi */ = {isa = PBXGroup; children = (
+			379BC863597951A2961F4F7C /* App.swift */,
+			665611085FCB57ACA0B89C52 /* index.html */,
+			E222B892717059B1B5800F08 /* Info.plist */,
+			D2041A7058975344A2C199C3 /* LaunchScreen.storyboard */,
+		); path = Shengongyi; sourceTree = "<group>"; };
+		721499F35F44548D88499E76 = {isa = PBXGroup; children = (
+			31F85B91E75E530CBB7D019F /* Shengongyi */,
+			AC9CE89668AB5C52998BB980 /* Products */,
+		); sourceTree = "<group>"; };
+		AC9CE89668AB5C52998BB980 /* Products */ = {isa = PBXGroup; children = (
+			AE178D0DA4315B10AE24D039 /* Shengongyi.app */,
+		); name = Products; sourceTree = "<group>"; };
+		02FCA206E9775AB1B3C7B4FD /* Shengongyi */ = {isa = PBXNativeTarget; buildConfigurationList = 45E64D2FBDA9552DADE22F93 /* Build configuration list for PBXNativeTarget "Shengongyi" */; buildPhases = (
+			0BDDC809FEF655669FC71263 /* Sources */,
+			32EF3398F9F954909336D6EB /* Frameworks */,
+			3042EFC2840B5E7CA0B60442 /* Resources */,
+		); buildRules = (
+		); dependencies = (
+		); name = Shengongyi; productName = Shengongyi; productReference = AE178D0DA4315B10AE24D039 /* Shengongyi.app */; productType = "com.apple.product-type.application"; };
+		504FA84BBE30510194D62EE8 /* Project object */ = {isa = PBXProject; attributes = {
+			LastUpgradeCheck = 2600;
+			TargetAttributes = {
+				02FCA206E9775AB1B3C7B4FD = {
+					CreatedOnToolsVersion = 26.0;
+				};
+			};
+		}; buildConfigurationList = E65C03168533507D84E183CB /* Build configuration list for PBXProject "Shengongyi" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh_CN; hasScannedForEncodings = 0; knownRegions = (
+			en,
+			Base,
+			zh_CN,
+		); mainGroup = 721499F35F44548D88499E76; productRefGroup = AC9CE89668AB5C52998BB980 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (
+			02FCA206E9775AB1B3C7B4FD /* Shengongyi */,
+		); };
+		5DBB6D34AD2D5485997FF59B /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			}; name = Debug; };
+		9DDC8301079E505B9D92EED7 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_OPTIMIZATION_LEVEL = s;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			}; name = Release; };
+		DA6B22E7E8835E73A0DC3287 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Shengongyi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.z1859741z.shengongyi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMBED_LIBRARIES_WITH_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			}; name = Debug; };
+		00C28713F81C5D6CAA81AABB /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Shengongyi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.z1859741z.shengongyi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMBED_LIBRARIES_WITH_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			}; name = Release; };
+		E65C03168533507D84E183CB /* Build configuration list for PBXProject "Shengongyi" */ = {isa = XCConfigurationList; buildConfigurations = (
+			5DBB6D34AD2D5485997FF59B /* Debug */,
+			9DDC8301079E505B9D92EED7 /* Release */,
+		); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		45E64D2FBDA9552DADE22F93 /* Build configuration list for PBXNativeTarget "Shengongyi" */ = {isa = XCConfigurationList; buildConfigurations = (
+			DA6B22E7E8835E73A0DC3287 /* Debug */,
+			00C28713F81C5D6CAA81AABB /* Release */,
+		); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = 504FA84BBE30510194D62EE8 /* Project object */;
+}
